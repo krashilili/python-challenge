@@ -1,11 +1,4 @@
 import csv
-from collections import defaultdict
-from datetime import datetime as dt
-
-budget_data1_csv_path = "./PyBank/raw_data/budget_data_1.csv"
-budget_data2_csv_path = "./PyBank/raw_data/budget_data_2.csv"
-
-MONTH_YEAR_FORMAT = lambda x: True if len(x.split('-')[1])==4 else False
 
 
 class BudgetAnalyzer:
